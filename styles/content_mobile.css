@@ -1,0 +1,529 @@
+/**
+ *  Style Sheet
+ * 
+ *
+ * Copyright (c) 2014. by Way2cu
+ * Author: Talreznic
+ */
+
+/*HEADER*/
+header{
+	background-image: url(../images/mobile-header.jpg);
+	background-repeat: no-repeat;
+	background-position: center top;
+}
+
+div.inner_wrap {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	position: relative;
+}
+
+
+header div.inner_wrap div:nth-of-type(1){
+	text-align: center;
+	padding-bottom: 15px;
+
+}
+
+header div.inner_wrap div:nth-of-type(1) img{
+	width: 200px;
+}
+
+header div.inner_wrap h1 {
+	margin: 0px;
+	font-size: 2.3rem;
+	color:white;
+	font-weight: normal;
+	text-align: center;
+    text-shadow: 3px 3px 7px rgba(0, 0, 0, 0.63);
+}
+
+header div.inner_wrap p{
+	text-align: center;
+	color: white;
+	font-weight: bold;
+	padding-right: 40px;
+	padding-left: 40px;
+	font-size: 1.1rem;
+	margin-top: 10px; 
+}
+
+header div.inner_wrap a {
+	display: block;
+	max-width: 160px;
+
+	margin-left: auto;
+	margin-right: auto;
+	padding: 10px;
+	padding-right: 35px;
+
+	border: 1px solid white;
+	background-image: url(../images/icon-phone-white.svg);
+	background-repeat: no-repeat;
+	background-position: 40px center;
+	background-size: 30px 30px;
+	background-color: #f7931e;
+
+	color: white;
+	text-decoration: none;
+	text-align: right;
+	font-size: 1.1rem;
+	font-weight: bold;
+	transition: all 0.3s;
+}
+
+header div.inner_wrap a:hover{
+	background-color:#f15a24;
+}
+
+/*HEADER FORM*/
+
+header div.form_wrap {
+	display: block;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	background-color: #323232;
+	text-align: center;
+}
+
+header div.form_wrap > span{
+	display: block;
+	text-align: center;
+	font-size: 1.1rem;
+	color: white;
+}
+
+header div.form_wrap form label{
+	display: block;
+}
+
+header div.form_wrap form label span{
+    display: block;
+    padding-top: 10px;
+    text-align: center;
+    color:white;
+    font-size: 1.3rem;
+}
+
+header div.form_wrap form label input{
+	display:block;
+	padding-top: 10px;
+	width: 90%;
+	font-size: 1.9rem;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+header div.form_wrap form div.controls {
+	text-align: center;
+}
+
+header div.form_wrap form div.controls button{
+	display: block;
+	width: 180px;
+
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 20px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	
+	border: 1px solid white;
+	background-color: #f7931e;
+	font-size: 1.5rem;
+	color: white;
+	cursor: pointer;
+	transition: all 0.3s;
+}
+
+header div.form_wrap form div.controls button:hover{
+	background-color:#f15a24; 
+}
+
+
+/*BENEFIT SECTION*/
+
+div.wrap.white{
+	display: block;
+	background-color: white;
+	position: relative;
+	height: auto;
+	
+}
+
+div.wrap.white div.inner_wrap span{
+	display: block;
+	text-align: center;
+}
+
+div.wrap.white div.inner_wrap > span:nth-of-type(1){
+	text-align: center;
+	margin-bottom: 10px;
+	padding-left: 5px;
+	padding-right: 5px;
+	color: #31cfd1;
+	font-size: 1.8rem;
+
+}
+
+div.wrap.white div.inner_wrap > span:nth-of-type(2){
+	margin-top: 10px;
+	margin-bottom: 10px;
+	padding-left: 5px;
+	padding-right: 5px;
+	color: #323232;
+	font-size: 0.8em;
+	font-weight: bold;
+
+}
+
+div.wrap.white div.inner_wrap > span:nth-of-type(3){
+	margin-top: 10px;
+	margin-bottom: 10px;
+	padding-left: 5px;
+	padding-right: 5px;
+	color: #323232;
+	font-size:0.9rem;
+}
+
+div.feature_container{
+	position: relative;
+	text-align: center;
+
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+div.feature_container div.wrap_third{
+	display: block;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-bottom: 20px;
+	vertical-align: top;
+}
+
+
+div.feature_container div.wrap_third span:nth-of-type(1){
+	font-size: 2rem;
+}
+
+
+div.feature_container div.wrap_third span:nth-of-type(2){
+	font-size: 1rem;
+}
+
+
+/*ARROW CONTAINER*/
+
+div#arrows {
+	display: block;
+	position: relative;
+	margin-bottom: 40px;
+	margin-top: 20px;
+	text-align: center;
+	background-color: #e6e6e6;
+	height: 3px;
+}
+
+div#arrows div.arrow-container {
+	position: absolute;
+	width: 164px;
+	top: -52px;
+	background-color: white;
+	padding: 14px;
+	left: 50%;
+	margin-left: -96px;
+}
+
+div#arrows div.arrow-container img {
+	display: inline-block;
+	vertical-align: top;
+	position: relative;
+	z-index: 100;
+}
+
+/*Gallery & About Us*/
+
+
+
+div.wrap.white div.inner_wrap div.gallery{
+	display: block;
+	background: url('../images/pool-example.jpg');
+	background-repeat: no-repeat;
+	background-size: 95% auto;
+	background-position: top;
+	position: relative;
+	text-align: center;
+	padding-top: 260px;
+	padding-bottom: 10px;
+}
+
+div.wrap.white div.inner_wrap div.gallery div.gallery_desc{
+	display: block;
+	padding-top: 20px;
+	;
+}
+
+div.wrap.white div.inner_wrap div.gallery  img{
+	position: absolute;
+	top: 135px;
+	right: 140px;
+	width: 50%;
+}
+div.wrap.white div.inner_wrap div.gallery span{
+	text-align: center;
+
+}
+
+div.wrap.white div.inner_wrap div.gallery > span{
+	font-size: 50px;
+}
+
+div.wrap.white div.inner_wrap div.gallery div.gallery_desc span:nth-of-type(1) {
+	color:#31cfd1;
+	font-size: 1.7rem;
+	margin-bottom: 10px;
+}
+
+div.wrap.white div.inner_wrap div.gallery div.gallery_desc span:nth-of-type(2){
+	font-size: 1.1rem;
+	margin-bottom: 10px;
+	font-weight: 500;
+}
+
+div.wrap.white div.inner_wrap div.gallery div.gallery_desc span:nth-of-type(3){
+	font-size: 1rem;
+	margin-bottom: 10px;
+	padding-left: 5px;
+	padding-right: 5px;
+}
+
+div.wrap.white div.inner_wrap div.gallery_images{
+	text-align: center;
+}
+
+div.wrap.white div.inner_wrap div.gallery_images span:nth-of-type(1){
+	color:#31cfd1;
+	font-size: 2rem;
+	margin-bottom: 10px;
+}
+
+div.wrap.white div.inner_wrap div.gallery_images span:nth-of-type(2){
+	font-size: 0.9rem;
+	margin-bottom: 10px;
+}
+
+div.wrap.white div.inner_wrap div.gallery_images img{
+	margin-top: 15px;
+}
+
+/*FOOTER*/
+
+footer{
+	display: block;
+	min-height: 600px;
+	background-color: #323232;
+}
+
+footer div.inner_wrap{
+	text-align: center;
+	color:white;	
+}
+
+footer div.inner_wrap span{
+	display: block;
+	margin-bottom: 10px;
+}
+
+footer div.inner_wrap span img{
+	width: 200px;
+}
+
+footer div.inner_wrap > span:nth-child(1){
+	font-size: 59px;
+	font-weight: normal;
+}
+
+footer div.inner_wrap > span:nth-child(2) {
+	font-size: 2.1rem;
+	
+}
+footer div.inner_wrap > span:nth-child(3) {
+	font-size: 1.1rem;
+	font-weight: bold;
+	padding-bottom: 40px;
+}
+
+footer div.inner_wrap > span:nth-child(4){
+    font-size: 0.9rem;
+}
+
+footer div.inner_wrap a.phone{
+    display: block;
+	max-width: 185px;
+	border: 1px solid white;
+	background-image: url(../images/icon-phone-white.svg);
+	background-position: 35.5px center;
+	background-repeat: no-repeat;
+	padding: 10px;
+	padding-right: 20px;
+	background-size: 30px 40px;
+	background-color: #f7931e;
+	text-align: right;
+	color: white;
+	font-size: 1.4rem;
+	font-weight: bold;
+	margin-right: 150px;
+	margin: 0 auto;
+	text-decoration: none;
+	cursor: pointer;
+	transition: all 0.3s;
+}
+
+
+footer div.inner_wrap a.phone:hover{
+	color:#f15a24;
+}
+
+footer div.inner_wrap span:nth-of-type(5) img{
+	width: 80px;
+	height: 80px;
+	margin-top: 20px;
+}
+
+footer div.inner_wrap span:nth-of-type(6){
+	font-size: 1.6rem;
+}
+
+
+footer div.inner_wrap div.form_wrap{
+	display: block;
+	margin-top: 40px;
+	padding-bottom: 20px;
+}
+
+footer div.inner_wrap div.form_wrap > span:nth-of-type(1){
+		padding-top: 20px;
+		font-size: 1.0rem;
+}
+
+footer div.inner_wrap div.form_wrap form{	
+	display: block;
+
+}
+
+footer div.inner_wrap div.form_wrap form label{
+	display: block;
+    
+}
+
+footer div.inner_wrap div.form_wrap form span{
+	display: block;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	font-size: 1.3rem;
+
+}
+
+footer div.inner_wrap div.form_wrap form input{
+
+	display: block;
+	width: 90%;
+
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	font-size: 1.4rem;
+
+	border: 1px solid white;
+	transition: all 0.3s;
+
+}
+
+footer div.inner_wrap div.form_wrap form input:focus{
+	border:1px solid #f7931e;
+}
+
+footer div.inner_wrap div.form_wrap form div.controls{
+	display: block;
+	padding-top: 20px;
+	
+}
+
+footer div.inner_wrap div.form_wrap form div.controls button{
+	display: inline-block;
+	vertical-align: top;
+	width: 200px;
+	padding-left:15px;
+	padding-right:15px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	font-size: 1.6rem;
+	background-color: #f7931e;
+	border: 1px solid white;
+	border-radius: 5px;
+	color: white;
+	cursor: pointer;
+	transition:all 0.3s;
+	}
+
+footer div.inner_wrap div.form_wrap form div.controls button:hover {
+		background-color:#f15a24; 
+
+	}
+
+footer div.inner_wrap div.copyright{
+	background-image: url(../images/cat-logo-color.svg);
+	background-repeat: no-repeat;
+	background-position: center top;
+	background-size: 50px;
+	padding-top: 80px;
+	direction: ltr;
+}
+
+footer div.inner_wrap div.copyright span{
+	font-size: 1.2rem;
+	display: inline-block;
+	text-align: center;
+}
+
+footer div.inner_wrap div.copyright a{
+	font-size: 1.2rem;
+	display: inline-block;
+	text-align: center;
+	text-decoration: none;
+	color:white;
+	padding-right: 5px;
+	padding-left: 5px;
+	transition:all 0.3s;
+}
+
+footer div.inner_wrap div.copyright a:hover{
+	color:#f15a24; 
+}
+footer div.inner_wrap a.phone:hover{
+	color: white;
+	background-color:#f15a24;
+}	
+
+/*GLOBAL*/
+
+div.seperator{
+	margin-bottom: 20px;
+	height: 3px;
+	background-color: #e6e6e6;
+}
+
+
+
+
+
+
+
+
+ 

@@ -1,7 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE document SYSTEM "../units/schema/language.dtd">
 <document>
-	<language name="English" short="en">
-		<constant name="site_title">Site title</constant>
+	<language name="Hebrew" short="he" rtl="yes" default="yes">
+        <constant name="site_title">pool</constant>
+        <constant name="phone">09-7654321</constant>
+        <constant name="title">איטום בריכות עם טכנולוגיה מתקדמת</constant>
+        <constant name="form_title">מלאו את הטופס ונציג יחזור אליכם בהקדם</constant>
+        <constant name="send">שלח טופס</constant>
+        <constant name="title2">כותרת מעניינת פה המדברת על איטום בריכות</constant>
+        <constant name="copyright1">Designed and developed by  </constant>
+        <constant name="copyright2">All rights reserved.  </constant>
+        <constant name="way2cu">Way2CU</constant>
+        <constant name="title2_description"> הפיויסי מיוצר משכבה אחת ולא יוכל להתנתק לעולם כי אין לו ממה בניגוד לכל המתחרים שבנוי משתי שכבות</constant>
+        <constant name="title2_para"> לורם איפסום דולור סיט אמט, קונסקטורר אדיפיסינג אלית לורם איפסום דולור סיט אמט, קונסקטורר אדיפיסינג אלית. סת אלמנקום ניסי נון ניבאה. דס איאקוליס וולופטה דיאם. וסטיבולום אט דולור, קראס אגת לקטוס וואל אאוגו וסטיבולום סוליסי טידום בעליק. קונדימנטום קורוס בליקרה, נונסטי קלובר בריקנה סטום, לפריקך תצטריק לרטי.</constant>
+        <constant name="contact">צרו עימנו קשר עכשיו וקבלו הצעת מחיר לאיטום הבריכה שלכם</constant>
+        <constant name="icon_text1">חזק</constant>
+        <constant name="icon_text2">פרימיום</constant>
+        <constant name="icon_text3">גוונים</constant>
+        <constant name="icon_text1_desc">יריעה בעובי 1.5 מיל מחוזקת ברשת פוליאסטר</constant>
+        <constant name="icon_text2_desc">פיויסי טהור ללא חומר ממוחזר</constant>
+        <constant name="icon_text3_desc">שלל צבעים וטקסטורות</constant>
+
+        <constant name="gallery_desc_title1">יריעות טובות בעולם לאיטום בריכות שחיה</constant>
+        <constant name="gallery_desc_sub_title1">פסקה המספרת על יתרונות החומרים ועל העסק</constant>
+        <constant name="gallery_desc_para1">לורם איפסום דולור סיט אמט, קונסקטורר אדיפיסינג אלית לורם איפסום דולור סיאמט, קונסקטורר אדיפיסינג אלית.</constant>
+        <constant name="gallery_desc_title2">ניתן כולל עבודה או חומר בנפרד</constant>
+        <constant name="gallery_desc_sub_title2">פסקה המספרת על יתרונות החומרים ועל העסק</constant>
+        <constant name="gallery_desc_para2">לורם איפסום דולור סיט אמט, קונסקטורר אדיפיסינג אלית לורם איפסום דולור סיט
+אמט, קונסקטורר אדיפיסינג אלית.</constant>
+        <constant name="gallery_desc_title3">לא תתנתק לעולם / לא תתפרק</constant>
+        <constant name="gallery_desc_sub_title3">פסקה המספרת על יתרונות החומרים ועל העסק</constant>
+        <constant name="gallery_desc_para3">לורם איפסום דולור סיט אמט, קונסקטורר אדיפיסינג אלית לורם איפסום דולור סיט
+אמט, קונסקטורר אדיפיסינג אלית.</constant>
+        <constant name="gallery_image_title">גלריה - העבודות שלנו</constant>
+        <constant name="gallery_image_title_desc">פסקה המספרת על עבודות שביצענו וכו'...</constant>
+
 	</language>
 </document>

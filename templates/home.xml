@@ -202,7 +202,7 @@
 				<!-- COPYRIGHT SECTION -->
 						<div class="copyright">
 							<span><cms:text constant="copyright1"/></span>
-							<a href="http://way2cu.co.il"><cms:text constant="way2cu"/></a>
+							<a href="http://www.way2cu.com" target="_blank"><cms:text constant="way2cu"/></a>
 							<span><cms:text constant="copyright2"/></span>
 						</div>	
 						

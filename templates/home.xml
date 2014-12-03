@@ -9,7 +9,207 @@
 		</head>
 
 		<body class="$language_rtl ? 'rtl' : 'ltr'" cms:eval="class">
-			<h1>It works!</h1>
+			<!-- HEADER SECTION -->
+			<header>
+					<div class="inner_wrap">
+						<div>
+							<img
+							src="_BASEURL.'/site/images/logo-white.svg'"
+							alt="logo"
+							cms:eval="src"
+						/>
+					</div>
+					<h1>איטום בריכות עם טכנולוגיה מתקדמת</h1>
+					<p><cms:text constant="title2"/></p>
+					<a href="#" class="phone">
+						<cms:text constant="phone"/>
+					</a>
+						<cms:desktop>
+							<div class="form_wrap">
+								<span><cms:text constant="form_title"/></span>
+								<cms:module 
+									name="contact_form" 
+									action="show" 
+									text_id="contact_form"
+									/>
+								
+							</div>
+						</cms:desktop>
+					</div>
+					<cms:mobile>
+						<div class="form_wrap">
+							<span><cms:text constant="form_title"/></span>
+							<cms:module 
+								name="contact_form" 
+								action="show" 
+								text_id="contact_form"
+								/>
+							
+						</div>
+					</cms:mobile>
+			</header>
+			<!-- BENEFIT SECTION -->
+				<div class="wrap white">
+						<div class="inner_wrap">
+							<span><cms:text constant="title2"/></span>
+							<span><cms:text constant="title2_description"/></span>
+							<span><cms:text constant="title2_para"/></span>
+								<div class="feature_container">
+									<div class="wrap_third">
+										<img
+											src="_BASEURL.'/site/images/icon-example.svg'"
+											alt="icon_example"
+											cms:eval="src"
+										/>
+										<span><cms:text constant="icon_text1"/></span>
+										<span><cms:text constant="icon_text1_desc"/></span>								
+									</div>	
+									<div class="wrap_third">
+										<img
+											src="_BASEURL.'/site/images/icon-example.svg'"
+											alt="icon_example"
+											cms:eval="src"
+										/>
+										<span><cms:text constant="icon_text2"/></span>
+										<span><cms:text constant="icon_text2_desc"/></span>
+										
+									</div>	
+									<div class="wrap_third">
+										<img
+											src="_BASEURL.'/site/images/icon-example.svg'"
+											alt="icon_example"
+											cms:eval="src"
+										/>
+										<span><cms:text constant="icon_text3"/></span>
+										<span><cms:text constant="icon_text3_desc"/></span>								
+									</div>	
+								</div>						
+						</div>
+				</div>
+
+			<!-- ARROW CONTAINER -->
+				<div id="arrows">
+					<div class="arrow-container">
+						<img
+							src="_BASEURL.'/site/images/arrow-down.svg'"
+							alt="arrow down"
+							eval="src"
+						/>
+						<img
+							src="_BASEURL.'/site/images/arrow-up.svg'"
+							alt="arrow up"
+							eval="src"
+						/>
+					</div>
+				</div>
+		
+				
+				<!-- About Us & Gallery -->
+				<div class="wrap white">
+					<div class="inner_wrap">
+
+						<div class="gallery">
+							<img
+								src="_BASEURL.'/site/images/10-year-warranty.svg'"
+								alt="warranty"
+
+								cms:eval="src"
+							/>
+							<div class="gallery_desc">
+								<span><cms:text constant="gallery_desc_title1"/></span>
+								<span><cms:text constant="gallery_desc_sub_title1"/></span>
+								<span><cms:text constant="gallery_desc_para1"/></span>
+							</div>	
+							<div class="gallery_desc">
+								<span><cms:text constant="gallery_desc_title2"/></span>
+								<span><cms:text constant="gallery_desc_sub_title2"/></span>
+								<span><cms:text constant="gallery_desc_para2"/></span>
+							</div>
+							<div class="gallery_desc">
+								<span><cms:text constant="gallery_desc_title3"/></span>
+								<span><cms:text constant="gallery_desc_sub_title3"/></span>
+								<span><cms:text constant="gallery_desc_para3"/></span>
+							</div>
+
+								
+						</div>
+
+						<!-- DIV SEPERATOR FOR MOBLIE -->
+
+						<cms:mobile>
+							<div class="seperator">
+								
+
+							</div>
+
+						</cms:mobile>
+
+						<div class="gallery_images">
+							<span><cms:text constant="gallery_image_title"/></span>
+							<span><cms:text constant="gallery_image_title_desc"/></span>
+							<img
+								src="_BASEURL.'/site/images/photo-demo.svg'"
+								alt=""
+								cms:eval="src"
+							/>
+							<img
+								src="_BASEURL.'/site/images/photo-demo.svg'"
+								alt=""
+								cms:eval="src"
+							/>
+							<img
+								src="_BASEURL.'/site/images/photo-demo.svg'"
+								alt=""
+								cms:eval="src"
+							/>
+							<img
+								src="_BASEURL.'/site/images/photo-demo.svg'"
+								alt=""
+								cms:eval="src"
+							/>
+						</div>
+					</div>
+				</div>
+				<!-- FOOTER -->
+				<footer>
+					<div class="inner_wrap">
+						
+						<span>
+							<img
+							src="_BASEURL.'/site/images/logo-white.svg'"
+							alt="logo"
+							cms:eval="src"
+						/>
+						</span>
+						<span><cms:text constant="title"/></span>
+						<span><cms:text constant="title2"/></span>
+						<span><cms:text constant="contact"/></span>
+
+						<a class="phone">
+							<cms:text constant="phone"/>
+					   </a>
+
+					   
+					
+						<div class="form_wrap">
+							<span><cms:text constant="form_title"/></span>
+							<cms:module 
+									name="contact_form" 
+									action="show" 
+									text_id="contact_form"
+									/>
+						</div>	
+				<!-- COPYRIGHT SECTION -->
+						<div class="copyright">
+							<span><cms:text constant="copyright1"/></span>
+							<a href="http://way2cu.co.il"><cms:text constant="way2cu"/></a>
+							<span><cms:text constant="copyright2"/></span>
+						</div>	
+						
+					</div>
+				</footer>
+
+
 		</body>
 	</html>
 </document>

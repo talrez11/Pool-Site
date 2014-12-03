@@ -1,0 +1,508 @@
+
+/*HEADER SECTION*/
+
+
+
+
+header{
+	background-image: url(../images/header-background.jpg);
+	min-height: 900px;
+	background-repeat: no-repeat;
+	background-position: center top;
+}
+
+
+div.inner_wrap {
+	display: block;
+	max-width: 1200px;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 40px;
+	padding-bottom: 40px;
+	position: relative;
+}
+
+header div.inner_wrap {
+	padding-right: 0px;
+
+}
+
+header div.inner_wrap h1 {
+	margin: 0px;
+	font-size: 59px;
+	color:white;
+	font-weight: normal;
+	text-align: right;
+	 text-shadow: 3px 3px 7px rgba(0, 0, 0, 0.63);
+}		
+
+header div.inner_wrap p{
+	text-align: right;
+	color: white;
+	font-weight: bold;
+	font-size:30px;
+	margin-top: 10px;: 
+}
+
+
+
+header div.inner_wrap div:nth-of-type(1){
+	text-align: right;
+	padding-top: 40px;
+	padding-bottom: 15px;
+}
+
+header div.inner_wrap a {
+	display:block;
+	max-width: 250px;
+	border: 1px solid white;
+	background-image: url(../images/icon-phone-white.svg);
+	background-repeat: no-repeat;
+	background-position: 20px center;
+	padding: 10px;
+	padding-right: 20px;
+	background-size: 40px 40px;
+	background-color: #f7931e;
+	text-align: right;
+	text-decoration: none;
+	color: white;
+	font-size: 2.1rem;
+	font-weight: bold;
+	margin-right: 150px;
+	transition:all 0.3s;
+
+}
+
+header div.inner_wrap a:hover{
+	background-color:#f15a24;
+}
+/*HEADER FORM*/
+
+header div.inner_wrap div.form_wrap {
+	display: block;
+	width:600px;
+	padding-right: 10px;
+	border: 2px dashed white;
+	margin-top: 60px;
+	background-color: rgba(0%,0%,0%,0.2);
+	text-align: center;
+
+}
+
+header div.inner_wrap div.form_wrap > span{
+	text-align: center;
+	font-size: 1.8rem;
+	color: white;
+	display: block;
+	padding-top: 10px;
+}
+
+header div.inner_wrap div.form_wrap form label{
+	display: block;
+}
+
+header div.inner_wrap div.form_wrap form label span{
+	vertical-align: middle;
+    display: inline-block;
+    width: 100px;
+    color:white;
+    font-size: 1.8rem;
+    text-align: right;
+}
+
+header div.inner_wrap div.form_wrap form label input{
+	padding: 15px;
+	width: 400px;
+	margin-top: 15px;
+	
+}
+
+header div.inner_wrap div.form_wrap form div.controls {
+	text-align: center;
+}
+
+header div.inner_wrap div.form_wrap form div.controls button{
+	width: 200px;
+	height: 60px;
+	margin-top: -15px;
+	margin-bottom: 15px;
+	font-size: 2.1rem;
+	background-color: #f7931e;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	color: white;
+	border:1px solid white;
+	cursor: pointer;
+	transition:all 0.3s;
+}
+
+header div.inner_wrap div.form_wrap form div.controls button:hover{
+	background-color:#f15a24; 
+}
+
+
+
+
+
+/*BENEFIT SECTION*/
+
+div.wrap.white{
+	display: block;
+	background-color: white;
+	position: relative;
+	height: auto;
+	
+}
+
+
+div.wrap.white div.inner_wrap span{
+	display: block;
+	text-align: center;
+}
+
+div.wrap.white div.inner_wrap > span:nth-of-type(1){
+	margin-top: 10px;
+	margin-bottom: 10px;
+	text-align: center;
+	color: #31cfd1;
+	font-size: 50px;
+
+}
+
+div.wrap.white div.inner_wrap > span:nth-of-type(2){
+	margin-top: 10px;
+	margin-bottom: 10px;
+	color: #323232;
+	font-size: 21px;
+	font-weight: bold;
+
+}
+
+div.wrap.white div.inner_wrap > span:nth-of-type(3){
+	margin-top: 10px;
+	margin-bottom: 10px;
+	color: #323232;
+	font-size: 23px;
+}
+
+div.feature_container{
+	position: relative;
+	text-align: center;
+	padding-top: 25px;
+	padding-bottom: 25px;
+}
+
+div.feature_container::after{
+	position: absolute;
+	content: '';
+	border: 3px solid black;
+	width: 800px;
+	top: 400px;
+	left: 34.5%;
+}
+
+div.feature_container div.wrap_third{
+	display: inline-block;
+	width: 380px;
+	padding-left: 10px;
+	padding-right: 10px;
+	vertical-align: top;
+}
+
+div.feature_container div.wrap_third span:nth-of-type(1){
+	font-size: 25px;
+}
+
+div.feature_container div.wrap_third span:nth-of-type(2){
+	font-size: 18px;
+}
+
+/*ARROW CONTAINER*/
+
+div#arrows {
+	display: block;
+	text-align: center;
+	background-color: #e6e6e6;
+	height: 3px;
+	position: relative;
+	margin-top: 40px;
+	margin-bottom: 40px;
+}
+
+div#arrows div.arrow-container {
+	position: absolute;
+	width: 164px;
+	top: -52px;
+	background-color: white;
+	padding: 14px;
+	left: 50%;
+	margin-left: -96px;
+}
+
+div#arrows div.arrow-container img {
+	display: inline-block;
+	vertical-align: top;
+	position: relative;
+	z-index: 100;
+}
+
+
+/*Gallery & About Us*/
+
+
+div.wrap.white div.inner_wrap div.gallery{
+	background: url('../images/pool-example.jpg');
+	background-repeat: no-repeat;
+	background-position: center right;
+	position: relative;
+	min-height: 470px;
+	text-align: right;
+	padding-right: 650px;
+}
+
+div.wrap.white div.inner_wrap div.gallery span{
+	text-align: right;
+
+}
+
+div.wrap.white div.inner_wrap div.gallery > span{
+	font-size: 50px;
+}
+div.wrap.white div.inner_wrap div.gallery  img{
+	position: absolute;
+	top: 280px;
+	right: 283px;
+}
+
+div.wrap.white div.inner_wrap div.gallery div.gallery_desc span:nth-of-type(1) {
+	color:#31cfd1;
+	font-size: 2.1rem;
+	margin-bottom: 10px;
+}
+
+div.wrap.white div.inner_wrap div.gallery div.gallery_desc span:nth-of-type(2){
+	font-size: 1.3rem;
+	margin-bottom: 10px;
+	font-weight: 500;
+}
+
+div.wrap.white div.inner_wrap div.gallery div.gallery_desc span:nth-of-type(3){
+	font-size: 1.1rem;
+	margin-bottom: 10px;
+}
+div.wrap.white div.inner_wrap div.gallery_images{
+	text-align: center;
+}
+div.wrap.white div.inner_wrap div.gallery_images span:nth-of-type(1){
+	color:#31cfd1;
+	font-size: 2rem;
+	margin-bottom: 10px;
+}
+
+div.wrap.white div.inner_wrap div.gallery_images span:nth-of-type(2){
+	font-size: 1.3rem;
+	margin-bottom: 10px;
+}
+
+div.wrap.white div.inner_wrap div.gallery_images img{
+	margin-right: 15px;
+}
+
+
+/*FOOTER*/
+
+footer{
+	min-height: 600px;
+	background-color: #323232;
+}
+
+footer div.inner_wrap{
+	text-align: center;
+	color:white;
+	
+}
+
+footer div.inner_wrap span{
+	display: block;
+	margin-bottom: 20px;
+}
+
+footer div.inner_wrap > span:nth-child(1){
+	font-size: 59px;
+	font-weight: normal;
+}
+
+footer div.inner_wrap > span:nth-child(2) {
+	font-size: 2.9rem;
+	text-shadow: 3px 3px 7px rgba(0, 0, 0, 0.63);
+}
+footer div.inner_wrap > span:nth-child(3) {
+	font-size: 2.1rem;
+	font-weight: bold;
+}
+
+footer div.inner_wrap > span:nth-child(4){
+    font-size: 1.3rem;
+}
+
+footer div.inner_wrap a.phone{
+    display: block;
+	max-width: 250px;
+	border: 1px solid white;
+	background-image: url(../images/icon-phone-white.svg);
+	background-position: 20px center;
+	background-repeat: no-repeat;
+	padding: 10px;
+	padding-right: 20px;
+	background-size: 40px 40px;
+	background-color: #f7931e;
+	text-align: right;
+	color: white;
+	font-size: 2.1rem;
+	font-weight: bold;
+	margin-right: 150px;
+	margin: 0 auto;
+	text-decoration: none;
+	cursor: pointer;
+	transition:all 0.3s;
+}
+
+footer div.inner_wrap a.phone:hover{
+	color:#f15a24;
+}
+
+footer div.inner_wrap span:nth-of-type(5) img{
+	width: 80px;
+	height: 80px;
+	margin-top: 20px;
+}
+
+footer div.inner_wrap span:nth-of-type(6){
+	font-size: 1.6rem;
+}
+
+/*FOOTER FORM*/
+
+
+footer div.inner_wrap div.form_wrap{
+	border:2px dashed white;
+	margin-top: 80px;
+	padding-bottom: 20px;
+}
+
+footer div.inner_wrap div.form_wrap > span:nth-of-type(1){
+		padding-top: 20px;
+		font-size: 1.5rem;
+}
+footer div.inner_wrap div.form_wrap form{	
+	display: inline-block;
+	vertical-align: top;
+
+}
+
+footer div.inner_wrap div.form_wrap form label{
+	display: inline-block;
+	vertical-align: top;
+	padding-left: 25px;	
+    
+}
+
+footer div.inner_wrap div.form_wrap form span{
+	display: inline-block;
+	vertical-align: top;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	font-size: 1.4rem;
+	padding-left: 15px;
+
+
+}
+
+footer div.inner_wrap div.form_wrap form input{
+	display: inline-block;
+	vertical-align: top;
+	width:250px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	font-size: 1.4rem;
+	border: 1px solid white;
+	transition:all 0.3s ;
+
+}
+
+footer div.inner_wrap div.form_wrap form input:focus{
+	border:1px solid #f7931e;
+}
+
+
+footer div.inner_wrap div.form_wrap form div.controls{
+	display: inline-block;
+	
+}
+
+footer div.inner_wrap div.form_wrap form div.controls button{
+	display: inline-block;
+	vertical-align: top;
+	padding-left:15px;
+	padding-right:15px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	font-size: 1.6rem;
+	background-color: #f7931e;
+	border: 1px solid white;
+	border-radius: 5px;
+	color: white;
+	cursor: pointer;
+	transition:all 0.3s;
+	}
+
+footer div.inner_wrap div.form_wrap form div.controls button:hover {
+		background-color:#f15a24; 
+
+	}
+
+
+/*FOOTER COPYRIGHT*/
+
+footer div.inner_wrap div.copyright{
+	margin-top: 30px;
+	background-image: url(../images/cat-logo-color.svg);
+	background-repeat: no-repeat;
+	background-position: center top;
+	min-height: 100px;
+	background-size: 60px;
+	padding-top: 80px;
+	direction: ltr;
+}
+
+footer div.inner_wrap div.copyright span{
+	font-size: 1.7rem;
+	display: inline-block;
+	text-align: center;
+}
+
+footer div.inner_wrap div.copyright a{
+	font-size: 1.7rem;
+	display: inline-block;
+	text-align: center;
+	text-decoration: none;
+	color:white;
+	padding-right: 5px;
+	padding-left: 5px;
+	transition:all 0.3s;
+}
+
+footer div.inner_wrap div.copyright a:hover{
+	color:#f15a24; 
+}
+footer div.inner_wrap a.phone:hover{
+    color: white;
+	background-color:#f15a24;
+}
+
+
+/*Global Class*/
+
+
+
+

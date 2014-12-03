@@ -1,9 +1,6 @@
 
 /*HEADER SECTION*/
 
-
-
-
 header{
 	background-image: url(../images/header-background.jpg);
 	min-height: 900px;
@@ -139,9 +136,6 @@ header div.inner_wrap div.form_wrap form div.controls button{
 header div.inner_wrap div.form_wrap form div.controls button:hover{
 	background-color:#f15a24; 
 }
-
-
-
 
 
 /*BENEFIT SECTION*/
@@ -501,7 +495,7 @@ footer div.inner_wrap a.phone:hover{
 }
 
 
-/*Global Class*/
+
 
 
 

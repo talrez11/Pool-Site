@@ -495,13 +495,11 @@ footer div.inner_wrap div.copyright span{
 }
 
 footer div.inner_wrap div.copyright a{
-	font-size: 1.2rem;
+	font-size: 1.1rem;
 	display: inline-block;
 	text-align: center;
 	text-decoration: none;
 	color:white;
-	padding-right: 10px;
-	padding-left: 10px;
 	transition:all 0.3s;
 }
 

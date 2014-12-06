@@ -1,0 +1,137 @@
+/*HEADER FOR MOBILE*/
+header{
+	background-image: url(../images/mobile-header.jpg);
+	background-repeat: no-repeat;
+	background-position: center top;
+}
+
+div.inner_wrap {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	position: relative;
+}
+
+
+header div.inner_wrap div:nth-of-type(1){
+	text-align: center;
+	padding-bottom: 15px;
+
+}
+
+header div.inner_wrap div:nth-of-type(1) img{
+	width: 200px;
+}
+
+header div.inner_wrap h1 {
+	margin: 0px;
+	font-size: 2.3rem;
+	color:white;
+	font-weight: normal;
+	text-align: center;
+    text-shadow: 3px 3px 7px rgba(0, 0, 0, 0.63);
+}
+
+header div.inner_wrap p{
+	text-align: center;
+	color: white;
+	font-weight: bold;
+	padding-right: 40px;
+	padding-left: 40px;
+	font-size: 1.1rem;
+	margin-top: 10px; 
+}
+
+header div.inner_wrap a {
+	display: block;
+	max-width: 160px;
+
+	margin-left: auto;
+	margin-right: auto;
+	padding: 10px;
+	padding-right: 35px;
+
+	border: 1px solid white;
+	background-image: url(../images/icon-phone-white.svg);
+	background-repeat: no-repeat;
+	background-position: 40px center;
+	background-size: 30px 30px;
+	background-color: #f7931e;
+
+	color: white;
+	text-decoration: none;
+	text-align: right;
+	font-size: 1.1rem;
+	font-weight: bold;
+	transition: all 0.3s;
+}
+
+header div.inner_wrap a:hover{
+	background-color:#f15a24;
+}
+
+/*HEADER FORM*/
+
+header div.form_wrap {
+	display: block;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	background-color: #323232;
+	text-align: center;
+}
+
+header div.form_wrap > span{
+	display: block;
+	text-align: center;
+	font-size: 1.1rem;
+	color: white;
+}
+
+header div.form_wrap form label{
+	display: block;
+}
+
+header div.form_wrap form label span{
+    display: block;
+    padding-top: 10px;
+    text-align: center;
+    color:white;
+    font-size: 1.3rem;
+}
+
+header div.form_wrap form label input{
+	display:block;
+	padding-top: 10px;
+	width: 90%;
+	font-size: 1.9rem;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+header div.form_wrap form div.controls {
+	text-align: center;
+}
+
+header div.form_wrap form div.controls button{
+	display: block;
+	width: 180px;
+
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 20px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	
+	border: 1px solid white;
+	background-color: #f7931e;
+	font-size: 1.5rem;
+	color: white;
+	cursor: pointer;
+	transition: all 0.3s;
+}
+
+header div.form_wrap form div.controls button:hover{
+	background-color:#f15a24; 
+}

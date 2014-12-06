@@ -1,0 +1,188 @@
+/*FOOTER MOBILE */
+footer{
+	display: block;
+	min-height: 600px;
+	background-color: #323232;
+}
+
+footer div.inner_wrap{
+	text-align: center;
+	color:white;	
+}
+
+footer div.inner_wrap span{
+	display: block;
+	margin-bottom: 10px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+footer div.inner_wrap span img{
+	width: 200px;
+}
+
+footer div.inner_wrap > span:nth-child(1){
+	font-size: 59px;
+	font-weight: normal;
+}
+
+footer div.inner_wrap > span:nth-child(2) {
+	font-size: 2.1rem;
+	
+}
+footer div.inner_wrap > span:nth-child(3) {
+	font-size: 1.1rem;
+	font-weight: bold;
+	padding-bottom: 40px;
+}
+
+footer div.inner_wrap > span:nth-child(4){
+    font-size: 0.9rem;
+}
+
+footer div.inner_wrap a.phone{
+    display: block;
+	max-width: 185px;
+	border: 1px solid white;
+	background-image: url(../images/icon-phone-white.svg);
+	background-position: 35.5px center;
+	background-repeat: no-repeat;
+	padding: 10px;
+	padding-right: 20px;
+	background-size: 30px 40px;
+	background-color: #f7931e;
+	text-align: right;
+	color: white;
+	font-size: 1.4rem;
+	font-weight: bold;
+	margin-right: 150px;
+	margin: 0 auto;
+	text-decoration: none;
+	cursor: pointer;
+	transition: all 0.3s;
+}
+
+
+footer div.inner_wrap a.phone:hover{
+	color:#f15a24;
+}
+
+footer div.inner_wrap span:nth-of-type(5) img{
+	width: 80px;
+	height: 80px;
+	margin-top: 20px;
+}
+
+footer div.inner_wrap span:nth-of-type(6){
+	font-size: 1.6rem;
+}
+
+
+footer div.inner_wrap div.form_wrap{
+	display: block;
+	margin-top: 40px;
+	padding-bottom: 20px;
+}
+
+footer div.inner_wrap div.form_wrap > span:nth-of-type(1){
+		padding-top: 20px;
+		font-size: 1.0rem;
+}
+
+footer div.inner_wrap div.form_wrap form{	
+	display: block;
+
+}
+
+footer div.inner_wrap div.form_wrap form label{
+	display: block;
+    
+}
+
+footer div.inner_wrap div.form_wrap form span{
+	display: block;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	font-size: 1.3rem;
+
+}
+
+footer div.inner_wrap div.form_wrap form input{
+
+	display: block;
+	width: 90%;
+
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	font-size: 1.4rem;
+
+	border: 1px solid white;
+	transition: all 0.3s;
+
+}
+
+footer div.inner_wrap div.form_wrap form input:focus{
+	border:1px solid #f7931e;
+}
+
+footer div.inner_wrap div.form_wrap form div.controls{
+	display: block;
+	padding-top: 20px;
+	
+}
+
+footer div.inner_wrap div.form_wrap form div.controls button{
+	display: inline-block;
+	vertical-align: top;
+	width: 200px;
+	padding-left:15px;
+	padding-right:15px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	font-size: 1.6rem;
+	background-color: #f7931e;
+	border: 1px solid white;
+	border-radius: 5px;
+	color: white;
+	cursor: pointer;
+	transition:all 0.3s;
+	}
+
+footer div.inner_wrap div.form_wrap form div.controls button:hover {
+		background-color:#f15a24; 
+
+	}
+
+footer div.inner_wrap div.copyright{
+	background-image: url(../images/cat-logo-color.svg);
+	background-repeat: no-repeat;
+	background-position: center top;
+	background-size: 50px;
+	padding-top: 80px;
+	direction: ltr;
+}
+
+footer div.inner_wrap div.copyright span{
+	font-size: 1.2rem;
+	display: inline-block;
+	text-align: center;
+}
+
+footer div.inner_wrap div.copyright a{
+	font-size: 1.1rem;
+	display: inline-block;
+	text-align: center;
+	text-decoration: none;
+	color:white;
+	transition:all 0.3s;
+}
+
+footer div.inner_wrap div.copyright a:hover{
+	color:#f15a24; 
+}
+footer div.inner_wrap a.phone:hover{
+	color: white;
+	background-color:#f15a24;
+}	

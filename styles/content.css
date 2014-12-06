@@ -196,14 +196,7 @@ div.feature_container{
 	padding-bottom: 25px;
 }
 
-div.feature_container::after{
-	position: absolute;
-	content: '';
-	border: 3px solid black;
-	width: 800px;
-	top: 400px;
-	left: 34.5%;
-}
+
 
 div.feature_container div.wrap_third{
 	display: inline-block;
@@ -505,8 +498,69 @@ footer div.inner_wrap a.phone:hover{
 }
 
 
+@media (max-width: 1200px) {
 
+	header {
+		padding-right: 20px;
+		}
 
+		header div.inner_wrap h1 {
+		font-size: 3rem;
+		}
 
+		div.wrap.white div.inner_wrap{
+			padding-right: 20px;
+			padding-left: 20px
+		}
 
+		div.feature_container div.wrap_third {
+		display: inline-block;
+		width: 260px;
+		padding-left: 10px;
+		padding-right: 10px;
+		vertical-align: top;
+		}
 
+		div.wrap.white div.inner_wrap div.gallery {
+			padding-right: 570px;
+		}
+
+		div.wrap.white div.inner_wrap div.gallery div.gallery_desc span:nth-of-type(1) {
+			color:#31cfd1;
+			font-size: 1.5rem;
+			margin-bottom: 10px;
+		}
+
+		div.wrap.white div.inner_wrap div.gallery div.gallery_desc span:nth-of-type(2){
+			font-size: 1.1rem;
+			margin-bottom: 10px;
+			font-weight: 500;
+		}
+
+		div.wrap.white div.inner_wrap div.gallery div.gallery_desc span:nth-of-type(3){
+			font-size: 1.0rem;
+			margin-bottom: 40px;
+
+		}
+
+		footer{
+			padding-left: 20px;
+			padding-right: 20px;
+		}
+
+		footer div.inner_wrap div.form_wrap form input {
+		width: 210px;
+		padding-right: 10px;
+		}
+
+		footer div.inner_wrap div.form_wrap form label {
+		display: inline-block;
+		vertical-align: top;
+		padding-left: 2px;
+		}
+
+		footer div.inner_wrap div.form_wrap form span{
+			padding-right: 10px;
+		}
+
+	}

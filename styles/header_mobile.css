@@ -25,6 +25,7 @@ header div.inner_wrap div:nth-of-type(1) img{
 	width: 200px;
 }
 
+
 header div.inner_wrap h1 {
 	margin: 0px;
 	font-size: 2.3rem;
@@ -33,6 +34,7 @@ header div.inner_wrap h1 {
 	text-align: center;
     text-shadow: 3px 3px 7px rgba(0, 0, 0, 0.63);
 }
+
 
 header div.inner_wrap p{
 	text-align: center;

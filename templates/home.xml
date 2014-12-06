@@ -19,7 +19,7 @@
 							cms:eval="src"
 						/>
 					</div>
-					<h1>איטום בריכות עם טכנולוגיה מתקדמת</h1>
+					<h1><cms:text constant="title"/></h1>
 					<p><cms:text constant="title2"/></p>
 					<a href="#" class="phone">
 						<cms:text constant="phone"/>

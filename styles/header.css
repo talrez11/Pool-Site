@@ -1,0 +1,137 @@
+/*HEADER SECTION POOL-SITE*/
+
+header{
+	background-image: url(../images/header-background.jpg);
+	min-height: 900px;
+	background-repeat: no-repeat;
+	background-position: center top;
+}
+
+
+div.inner_wrap {
+	display: block;
+	max-width: 1200px;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 40px;
+	padding-bottom: 40px;
+	position: relative;
+}
+
+header div.inner_wrap {
+	padding-right: 0px;
+
+}
+
+header div.inner_wrap h1 {
+	margin: 0px;
+	font-size: 59px;
+	color:white;
+	font-weight: normal;
+	text-align: right;
+	 text-shadow: 3px 3px 7px rgba(0, 0, 0, 0.63);
+}		
+
+header div.inner_wrap p{
+	text-align: right;
+	color: white;
+	font-weight: bold;
+	font-size:30px;
+	margin-top: 10px;: 
+}
+
+
+
+header div.inner_wrap div:nth-of-type(1){
+	text-align: right;
+	padding-top: 40px;
+	padding-bottom: 15px;
+}
+
+header div.inner_wrap a {
+	display:block;
+	max-width: 250px;
+	border: 1px solid white;
+	background-image: url(../images/icon-phone-white.svg);
+	background-repeat: no-repeat;
+	background-position: 20px center;
+	padding: 10px;
+	padding-right: 20px;
+	background-size: 40px 40px;
+	background-color: #f7931e;
+	text-align: right;
+	text-decoration: none;
+	color: white;
+	font-size: 2.1rem;
+	font-weight: bold;
+	margin-right: 150px;
+	transition:all 0.3s;
+
+}
+
+header div.inner_wrap a:hover{
+	background-color:#f15a24;
+}
+/*HEADER FORM*/
+
+header div.inner_wrap div.form_wrap {
+	display: block;
+	width:600px;
+	padding-right: 10px;
+	border: 2px dashed white;
+	margin-top: 60px;
+	background-color: rgba(0%,0%,0%,0.2);
+	text-align: center;
+
+}
+
+header div.inner_wrap div.form_wrap > span{
+	text-align: center;
+	font-size: 1.8rem;
+	color: white;
+	display: block;
+	padding-top: 10px;
+}
+
+header div.inner_wrap div.form_wrap form label{
+	display: block;
+}
+
+header div.inner_wrap div.form_wrap form label span{
+	vertical-align: middle;
+    display: inline-block;
+    width: 100px;
+    color:white;
+    font-size: 1.8rem;
+    text-align: right;
+}
+
+header div.inner_wrap div.form_wrap form label input{
+	padding: 15px;
+	width: 400px;
+	margin-top: 15px;
+	
+}
+
+header div.inner_wrap div.form_wrap form div.controls {
+	text-align: center;
+}
+
+header div.inner_wrap div.form_wrap form div.controls button{
+	width: 200px;
+	height: 60px;
+	margin-top: -15px;
+	margin-bottom: 15px;
+	font-size: 2.1rem;
+	background-color: #f7931e;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	color: white;
+	border:1px solid white;
+	cursor: pointer;
+	transition:all 0.3s;
+}
+
+header div.inner_wrap div.form_wrap form div.controls button:hover{
+	background-color:#f15a24; 
+}
